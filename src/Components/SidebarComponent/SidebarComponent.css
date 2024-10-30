@@ -1,0 +1,17 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sidebarButton{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(216, 212, 212);
+    background-color: cadetblue;
+    font-size: medium;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid rgb(82, 130, 132);
+    cursor: pointer;
+}

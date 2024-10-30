@@ -1,0 +1,70 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #44666d;
+    height: 100%; /* Make sure it uses full viewport height */
+    font-family: cursive;
+}
+
+input {
+    width: 20rem;
+    height: 2rem;
+    border-radius: .3rem;
+    border: 2px solid rgb(162, 216, 218);
+    outline: none;
+    padding: 15px;
+}
+
+.AddButton {
+    width: 5rem;
+    height: 2.4rem;
+    border-radius: .3rem;
+    border: 2px solid rgb(162, 216, 218);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.ActionButton {
+    width: auto;
+    min-width: 40px;
+    height: 2.4rem;
+    border-radius: .3rem;
+    border: 2px solid rgb(162, 216, 218);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#list {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: flex-start; /* Start from the top */
+    max-width: 400px;
+    max-height: 400px; /* Set a max height for the list */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Hide the scrollbar for WebKit browsers (Chrome, Safari) */
+#list::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+
+/* Hide scrollbar for Firefox */
+#list {
+    scrollbar-width: none; /* Hide scrollbar */
+}
+
+li {
+    padding: 10px;
+}
+
+.AddButton:hover {
+    background-color: cadetblue;
+}
+
+.ActionButton:hover {
+    background-color: rgb(98, 122, 159);
+}
