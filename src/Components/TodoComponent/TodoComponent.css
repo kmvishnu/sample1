@@ -41,7 +41,7 @@ input {
     flex-direction: column;
     justify-content: flex-start; /* Start from the top */
     max-width: 400px;
-    max-height: 400px; /* Set a max height for the list */
+    max-height: 420px; /* Set a max height for the list */
     overflow-y: auto; /* Enable vertical scrolling */
     padding: 10px;
     box-sizing: border-box;

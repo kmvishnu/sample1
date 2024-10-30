@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; /* Ensure consistent box-sizing across all elements */
-
 }
 #page {
   display: grid;
